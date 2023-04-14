@@ -9,7 +9,7 @@ int main(){
     for(i=2;i<n;i++){
         fib[i]=fib[i-1]+fib[i-2];
     }
-    printf("The first %d terms of Fibonacci Series is: ",n);
+    printf("The first %d terms of this Fibonacci Series are as follows \n: ",n);
     for(i=0;i<n;i++){
         printf("%d ",fib[i]);
     }
